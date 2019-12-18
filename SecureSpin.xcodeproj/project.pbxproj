@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F0DD48B2369D5F000505312 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0DD48A2369D5F000505312 /* UserProfile.swift */; };
+		3F2D4E3B2361225000FC607A /* WheelScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2D4E3A2361225000FC607A /* WheelScreen.swift */; };
+		3F8F319423A2ECC400F1FBFB /* ConsentForm2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8F319323A2ECC400F1FBFB /* ConsentForm2.swift */; };
+		3F8F319623A2EDC300F1FBFB /* ResetPassword2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8F319523A2EDC300F1FBFB /* ResetPassword2.swift */; };
 		3F937392236108D000DE45B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F937391236108D000DE45B5 /* AppDelegate.swift */; };
 		3F937394236108D000DE45B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F937393236108D000DE45B5 /* SceneDelegate.swift */; };
 		3F937396236108D000DE45B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F937395236108D000DE45B5 /* ViewController.swift */; };
 		3F937399236108D000DE45B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F937397236108D000DE45B5 /* Main.storyboard */; };
 		3F93739B236108D200DE45B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F93739A236108D200DE45B5 /* Assets.xcassets */; };
 		3F93739E236108D200DE45B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F93739C236108D200DE45B5 /* LaunchScreen.storyboard */; };
+		3F9373A62361101600DE45B5 /* CreateLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9373A52361101600DE45B5 /* CreateLogin.swift */; };
+		3FD79AC923736FF400BD040A /* Done.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD79AC823736FF400BD040A /* Done.swift */; };
+		3FD79ACB2373784100BD040A /* FeedbackScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD79ACA2373784100BD040A /* FeedbackScreen.swift */; };
+		3FD79ACD2373828900BD040A /* TotallyDone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD79ACC2373828900BD040A /* TotallyDone.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F0DD48A2369D5F000505312 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		3F2D4E3A2361225000FC607A /* WheelScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheelScreen.swift; sourceTree = "<group>"; };
+		3F8F319323A2ECC400F1FBFB /* ConsentForm2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsentForm2.swift; sourceTree = "<group>"; };
+		3F8F319523A2EDC300F1FBFB /* ResetPassword2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPassword2.swift; sourceTree = "<group>"; };
 		3F93738E236108D000DE45B5 /* SecureSpin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecureSpin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F937391236108D000DE45B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F937393236108D000DE45B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +36,10 @@
 		3F93739A236108D200DE45B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F93739D236108D200DE45B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F93739F236108D200DE45B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F9373A52361101600DE45B5 /* CreateLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateLogin.swift; sourceTree = "<group>"; };
+		3FD79AC823736FF400BD040A /* Done.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Done.swift; sourceTree = "<group>"; };
+		3FD79ACA2373784100BD040A /* FeedbackScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackScreen.swift; sourceTree = "<group>"; };
+		3FD79ACC2373828900BD040A /* TotallyDone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotallyDone.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +72,19 @@
 		3F937390236108D000DE45B5 /* SecureSpin */ = {
 			isa = PBXGroup;
 			children = (
-				3F937391236108D000DE45B5 /* AppDelegate.swift */,
-				3F937393236108D000DE45B5 /* SceneDelegate.swift */,
 				3F937395236108D000DE45B5 /* ViewController.swift */,
+				3F8F319323A2ECC400F1FBFB /* ConsentForm2.swift */,
+				3F0DD48A2369D5F000505312 /* UserProfile.swift */,
+				3F9373A52361101600DE45B5 /* CreateLogin.swift */,
+				3F2D4E3A2361225000FC607A /* WheelScreen.swift */,
+				3F8F319523A2EDC300F1FBFB /* ResetPassword2.swift */,
+				3FD79AC823736FF400BD040A /* Done.swift */,
+				3FD79ACA2373784100BD040A /* FeedbackScreen.swift */,
+				3FD79ACC2373828900BD040A /* TotallyDone.swift */,
 				3F937397236108D000DE45B5 /* Main.storyboard */,
 				3F93739A236108D200DE45B5 /* Assets.xcassets */,
+				3F937391236108D000DE45B5 /* AppDelegate.swift */,
+				3F937393236108D000DE45B5 /* SceneDelegate.swift */,
 				3F93739C236108D200DE45B5 /* LaunchScreen.storyboard */,
 				3F93739F236108D200DE45B5 /* Info.plist */,
 			);
@@ -138,9 +162,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F2D4E3B2361225000FC607A /* WheelScreen.swift in Sources */,
 				3F937396236108D000DE45B5 /* ViewController.swift in Sources */,
+				3FD79ACB2373784100BD040A /* FeedbackScreen.swift in Sources */,
+				3FD79AC923736FF400BD040A /* Done.swift in Sources */,
+				3F0DD48B2369D5F000505312 /* UserProfile.swift in Sources */,
+				3F9373A62361101600DE45B5 /* CreateLogin.swift in Sources */,
+				3F8F319623A2EDC300F1FBFB /* ResetPassword2.swift in Sources */,
 				3F937392236108D000DE45B5 /* AppDelegate.swift in Sources */,
+				3F8F319423A2ECC400F1FBFB /* ConsentForm2.swift in Sources */,
 				3F937394236108D000DE45B5 /* SceneDelegate.swift in Sources */,
+				3FD79ACD2373828900BD040A /* TotallyDone.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +323,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Lindsey.Screens.SecureSpin;
+				PRODUCT_BUNDLE_IDENTIFIER = Lindsey.SecureSpin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,7 +341,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Lindsey.Screens.SecureSpin;
+				PRODUCT_BUNDLE_IDENTIFIER = Lindsey.SecureSpin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
